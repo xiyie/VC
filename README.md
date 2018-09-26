@@ -20,6 +20,16 @@ WM_PAINT   刷新消息
  用户自定义画笔
    HPEN CPen(MFC)
    CPen Pen;
+画刷 HBURSH CRrush(MFC)
+
+系统预定义画刷：
+BLACK_BRUSH,WHITE_BRUSH,.......
+用户自定义画刷：
+  CreatSolidBrush(..)  ///单色画刷
+  CreatHatchBrush（..） ///非单色  按照某种图案
+ 
+
+
    
    
    
