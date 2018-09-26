@@ -42,6 +42,15 @@ WPARAM wParam,LPARAM lParam)
     CPen *pOldPen=NULL;
     RedPen CreatePen(PS_SOLID,10,RGB(255,0,0));   //创建画笔 
     pOldPen  =  dc.SelectObject(&RedPen);
+    
+    CBrush Brush;
+    CBrush *pOldBrush = NULL;
+    Brush.CreateSoldBrush(RGB(255,255,0))
+    POldBrush = dc.SelectObject(&Brush);
+    
+
+    
+    
 
     dc.SetMapMode(MM_LOMETRI);   /////  (MM_HIMETRIC);
     dc.Rectangle(100,-100,400,-500);
