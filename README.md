@@ -27,6 +27,11 @@ BLACK_BRUSH,WHITE_BRUSH,.......
 用户自定义画刷：
   CreatSolidBrush(..)  ///单色画刷
   CreatHatchBrush（..） ///非单色  按照某种图案
+
+   **CG diobject:
+      cpen      画笔
+      cbrush    画刷 
+      cfont     字体
  
 
 
@@ -59,3 +64,16 @@ WPARAM wParam,LPARAM lParam)
     return(0);
   }
   
+
+2018.10.8
+ 
+ **系统字体
+ 
+ **文字信息显示
+   BOOL TextOut(int x.int y,LPCTSTR IpszString);  x,y   为坐标   后面参数是字符串
+   
+   
+   CCLIENTDC DC(THIS)
+   dc.textout(20,20,"hello world")
+ 
+     
