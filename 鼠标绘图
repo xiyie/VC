@@ -1,0 +1,5 @@
+WM-lbuttondown:记录定位点一
+wm-mousemove :
+            mk- control 判断拖动
+      记录定位点2 绘制图形
+      
