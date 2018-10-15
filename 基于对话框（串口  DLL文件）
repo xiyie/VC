@@ -11,5 +11,14 @@
          CDemoDlg dlg; 定义主窗口对象
          m_pMainwND=&dlg;
          dlg.DoModal()显示对话框
+         CDemoDlg 对话框类：提供应用程序主窗口
+             初始化：
+                 构造函数：简单的初始化操作
+                 OnInitDialog():消息处理函数
+                    复杂的初始化操作
+                    
+  对话框的数据交换机制  DDX
+       内部变量和界面控件的数据交换
+  问题：	   
          
           
