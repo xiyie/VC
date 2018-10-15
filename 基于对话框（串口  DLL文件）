@@ -24,4 +24,9 @@
          
   
          
+         按钮控件  
+           CObject
+              ccmdtarget
+                 cwnd
+                   cbutton
           
