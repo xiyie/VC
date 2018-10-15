@@ -1,7 +1,15 @@
 对话框   dialog 
           MFC---->cdialog/cdialogEX(类)
          
-            1 对话框模板资源     （可视化设计）
-            2 对话框类          （代码设计）
+            1 对话框模板资源     （可视化设计，实现用户界面）
+            2 对话框类          （代码设计，实现程序功能）
+         AppWizard：MFC应用程序向导
+         基于对话框的应用程序项目创建    文件→新建→项目 
+  CDemoApp 应用程序类
+         代表应用程序本身，
+         initinstance(),MFC入口函数
+         CDemoDlg dlg; 定义主窗口对象
+         m_pMainwND=&dlg;
+         dlg.DoModal()显示对话框
          
-         
+          
